@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8e350f05-3e2f-4d65-a790-d8760a640fe4" name="Default Changelist" comment="" />
+    <list default="true" id="8e350f05-3e2f-4d65-a790-d8760a640fe4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/VendingMachine/Display.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Display.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vending/SoftDrink.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/VendingMachine/vending/Chocolate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VendingMachine/vending/Chocolate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/VendingMachine/vending/OverloadedVendingMachine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VendingMachine/vending/OverloadedVendingMachine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/VendingMachine/vending/SaltySnack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VendingMachine/vending/SaltySnack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/VendingMachine/vending/SoftDrinks.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/VendingMachine/productTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/VendingMachine/productTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vending/Chocolate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vending/Chocolate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vending/OverloadedVendingMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vending/OverloadedVendingMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vending/SaltySnack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vending/SaltySnack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vending/SoftDrinks.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/productTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/productTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +31,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1c7N51I2ZyzGzNQXv1YCbsLDsdO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -26,8 +47,21 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
-  <component name="RunManager" selected="JUnit.productTest">
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="vending" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Display">
+    <configuration name="Display" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Display" />
+      <module name="VendingMachine" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SoftDrinkTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="VendingMachine" />
       <option name="PACKAGE_NAME" value="" />
@@ -56,9 +90,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="productTest.overloadedVendingMachine" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="VendingMachine" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="productTest" />
+      <option name="METHOD_NAME" value="overloadedVendingMachine" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Display" />
         <item itemvalue="JUnit.productTest" />
+        <item itemvalue="JUnit.productTest.overloadedVendingMachine" />
         <item itemvalue="JUnit.SoftDrinkTest" />
         <item itemvalue="JUnit.productTest.canProductWork" />
       </list>
@@ -94,25 +140,45 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738/1366.0.1280.994@0.0.1366.738" timestamp="1589876085873" />
-    <state width="1323" height="182" key="GridCell.Tab.0.bottom" timestamp="1589877477453">
+    <state x="381" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1589930989351">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.1280.994@0.0.1366.738" timestamp="1589877477453" />
-    <state width="1323" height="182" key="GridCell.Tab.0.center" timestamp="1589877477452">
+    <state x="381" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.738/1366.0.1280.994@0.0.1366.738" timestamp="1589930989351" />
+    <state x="413" y="117" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1589927015978">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.1280.994@0.0.1366.738" timestamp="1589877477452" />
-    <state width="1323" height="182" key="GridCell.Tab.0.left" timestamp="1589877477452">
+    <state x="413" y="117" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738/1366.0.1280.994@0.0.1366.738" timestamp="1589927015978" />
+    <state width="1323" height="383" key="GridCell.Tab.0.bottom" timestamp="1589939638944">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.1280.994@0.0.1366.738" timestamp="1589877477452" />
-    <state width="1323" height="182" key="GridCell.Tab.0.right" timestamp="1589877477453">
+    <state width="1323" height="383" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.1280.994@0.0.1366.738" timestamp="1589939638944" />
+    <state width="1237" height="383" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.1280.994@1366.0.1280.994" timestamp="1589922408086" />
+    <state width="1323" height="266" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1589904232917" />
+    <state width="1323" height="383" key="GridCell.Tab.0.center" timestamp="1589939638944">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1280.994@0.0.1366.738" timestamp="1589877477453" />
+    <state width="1323" height="383" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.1280.994@0.0.1366.738" timestamp="1589939638944" />
+    <state width="1237" height="383" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.1280.994@1366.0.1280.994" timestamp="1589922408085" />
+    <state width="1323" height="266" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1589904232916" />
+    <state width="1323" height="383" key="GridCell.Tab.0.left" timestamp="1589939638943">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="383" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.1280.994@0.0.1366.738" timestamp="1589939638943" />
+    <state width="1237" height="383" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.1280.994@1366.0.1280.994" timestamp="1589922408085" />
+    <state width="1323" height="266" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1589904232915" />
+    <state width="1323" height="383" key="GridCell.Tab.0.right" timestamp="1589939638944">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="383" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1280.994@0.0.1366.738" timestamp="1589939638944" />
+    <state width="1237" height="383" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1280.994@1366.0.1280.994" timestamp="1589922408085" />
+    <state width="1323" height="266" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1589904232916" />
     <state x="387" y="263" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1589876671679">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="387" y="263" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1366.738/1366.0.1280.994@0.0.1366.738" timestamp="1589876671679" />
+    <state x="65" y="0" key="new project wizard" timestamp="1589939630267">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="65" y="0" key="new project wizard/0.0.1366.738/1366.0.1280.994@0.0.1366.738" timestamp="1589939630267" />
   </component>
 </project>

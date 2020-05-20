@@ -1,8 +1,6 @@
 
 import org.junit.jupiter.api.Test;
-import vending.Chocolate;
-import vending.Product;
-import vending.SoftDrinks;
+import vending.*;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
     public class productTest {
@@ -15,15 +13,33 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
         @Test
         void softDrinkTest() {
-            SoftDrinks softDrinks = new SoftDrinks();
+            SoftDrink softDrinks = new SoftDrink();
             softDrinks.description();
-            assertEquals("This is a soft drink", softDrinks.description());
+            assertEquals("This is a SoftDrink", softDrinks.description());
         }
 
         @Test
-        void ChocolateTest() {
+        void chocolateTest(){
             Chocolate chocolate = new Chocolate();
             chocolate.description();
-            assertEquals("This is a chocolate", chocolate.description());
+            assertEquals("This is a Chocolate", chocolate.description());
         }
+        /*@Test
+        void overloadedVendingMachine(){
+            OverloadedVendingMachine overloadedVendingMachine = new OverloadedVendingMachine();
+            Product product = new Product();
+            SoftDrink softDrinks = new SoftDrink();
+            SaltySnack saltySnack = new SaltySnack();
+            Chocolate chocolate = new Chocolate();
+
+            overloadedVendingMachine.buy(saltySnack);
+            assertEquals("buy 1 Salty Snack", overloadedVendingMachine.buy(chocolate));
+        }*/
+        @Test
+        void saltySnacksTest(){
+            SaltySnack saltySnack = new SaltySnack();
+            saltySnack.description();
+            assertEquals("This is a SaltySnack", saltySnack.description());
+        }
+
     }
