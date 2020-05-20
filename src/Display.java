@@ -1,17 +1,14 @@
 import vending.*;
 
+import javax.xml.bind.SchemaOutputResolver;
+
 public class Display {
     public static void main(String[] args){
-        OverloadedVendingMachine overloadedVendingMachine = new OverloadedVendingMachine(50,60,80);
-        Product product = new Product();
-        SaltySnack saltySnack = new SaltySnack();
+        OverloadedVendingMachine overloadedVendingMachine = new OverloadedVendingMachine(56,70,90);
         Chocolate chocolate = new Chocolate();
-
-        overloadedVendingMachine.buy(saltySnack);
         overloadedVendingMachine.buy(chocolate);
-        OverloadedVendingMachine overloadedVendingMachine1 = new OverloadedVendingMachine(32,65,95);
-
-
-
+        overloadedVendingMachine.getStock(chocolate);
+        overloadedVendingMachine.addStock(chocolate);
+        overloadedVendingMachine.getStock(chocolate);
     }
 }

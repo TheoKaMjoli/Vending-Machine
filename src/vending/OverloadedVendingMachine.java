@@ -7,9 +7,9 @@ public class OverloadedVendingMachine {
     private int productCount = 0;
 
     public OverloadedVendingMachine(int softDrinkQty, int saltySnacksQty, int chocolatesQty) {
-        softDrinkCount = softDrinkQty;
-        saltySnackCount = saltySnacksQty;
-        chocolateCount = chocolatesQty;
+        this.softDrinkCount = softDrinkQty;
+        this.saltySnackCount = saltySnacksQty;
+        this.chocolateCount = chocolatesQty;
 
     }
 
@@ -36,15 +36,42 @@ public class OverloadedVendingMachine {
     }
 
     public void addStock(SoftDrink softDrinks) {
+        System.out.println("1 SoftDrink has been added to the stock");
         softDrinkCount++;
     }
 
-    void addStock(SaltySnack saltySnack) {
+    public void addStock(SaltySnack saltySnack) {
+        System.out.println("1 SaltySnack has been added to the stock");
         saltySnackCount++;
     }
 
-    void addStock(Chocolate chocolate) {
+    public void addStock(Chocolate chocolate) {
+        System.out.println("1 Chocolate has been added to the stock");
         chocolateCount++;
+    }
+    public void addStock(Product product){
+        System.out.println("1 of Each Product has been added to the stock");
+        softDrinkCount++;
+        saltySnackCount++;
+        chocolateCount++;
+    }
+
+    public void getStock(Chocolate chocolate){
+        int counterC = chocolateCount;
+        System.out.println("The available stock for chocolate is: >> " + counterC);
+    }
+    public void getStock(SaltySnack saltySnack){
+        int counterC = saltySnackCount;
+        System.out.println("The available stock for chocolate is: >> " + counterC);
+    }
+    public void getStock(SoftDrink softDrink){
+        int counterC = softDrinkCount;
+        System.out.println("The available stock for chocolate is: >> " + counterC);
+    }
+    public void getStock(Product product){
+        int counterSoft = softDrinkCount;
+        int counterSalt = saltySnackCount;
+        //System.out.println("The available stock for all products is: >> " + counterC );
     }
 }
 
