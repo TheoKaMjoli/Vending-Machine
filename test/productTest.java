@@ -13,29 +13,34 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
         @Test
         void softDrinkTest() {
-            SoftDrink softDrinks = new SoftDrink();
-            OverloadedVendingMachine overloadedVendingMachine = new OverloadedVendingMachine(50,60,70);
-            overloadedVendingMachine.buy(softDrinks);
-            assertEquals("This is a SoftDrink", overloadedVendingMachine.buy(softDrinks));
+            SoftDrink softDrink = new SoftDrink();
+            Product product = new Product();
+            softDrink.description();
+            assertEquals("This is a SoftDrink", softDrink.description());
         }
 
         @Test
-        void chocolateTest(){
+        void chocolateTest() {
             Chocolate chocolate = new Chocolate();
             chocolate.description();
             assertEquals("This is a Chocolate", chocolate.description());
         }
-       /* @Test
-        void overloadedVendingMachine(){
-            OverloadedVendingMachine overloadedVendingMachine = new OverloadedVendingMachine(6,5,3);
 
-            assertEquals("buy 1 Salty Snack", overloadedVendingMachine.buy(chocolate));
-        }*/
         @Test
-        void saltySnacksTest(){
+        void saltySnacksTest() {
             SaltySnack saltySnack = new SaltySnack();
             saltySnack.description();
             assertEquals("This is a SaltySnack", saltySnack.description());
         }
 
+        @Test
+        public void mustOverloadedVendingMachine() {
+            OverloadedVendingMachine overloadedVendingMachine = new OverloadedVendingMachine(6, 5, 100);
+            Chocolate chocolate = new Chocolate();
+            overloadedVendingMachine.buy(chocolate);
+            overloadedVendingMachine.addStock(chocolate);
+            overloadedVendingMachine.getStock(chocolate); 
+            assertEquals(100, overloadedVendingMachine.chocolateCount);
+
+        }
     }
